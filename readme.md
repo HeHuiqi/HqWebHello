@@ -22,9 +22,9 @@ HqWebHello
  	<Context path="/hello" docBase="/Users/hehuiqi/Desktop/HqWebHello" reloadable="true">
         </Context>
 </host>
-path="/hello" 虚拟路径
-docBase="/Users/hehuiqi/Desktop/Hello" 项目真实路径
-reloadable="true" true表示在不重启tomcat的情况下自动重新载入class文件
+<!-- path="/hello" 虚拟路径 -->
+<!-- docBase="/Users/hehuiqi/Desktop/Hello" 项目真实路径 -->
+<!-- reloadable="true" true表示在不重启tomcat的情况下自动重新载入class文件 -->
 ```
 
 ## 编译java源文件
