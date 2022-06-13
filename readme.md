@@ -19,18 +19,22 @@ HqWebHello
  	<Context path="/hello" docBase="/Users/hehuiqi/Desktop/HqWebHello" reloadable="true">
         </Context>
 </host>
-ath="/hello" 虚拟路径
-docBase="/Users/hehuiqi/Desktop/Hello" 项目真是路径
+path="/hello" 虚拟路径
+docBase="/Users/hehuiqi/Desktop/Hello" 项目真实路径
 reloadable="true" true表示在不重启tomcat的情况下自动重新载入class文件
 
 2.编译java源文件
 javac -sourcepath -d 
 -sourcepath 指定java源文件路径 -d 指定生成class文件的路径
-例如：javac -sourcepath ./src/ ./src/*.java   -d ./WEB-INF/classes/
+例如：
+javac -sourcepath ./src/ ./src/*.java   -d ./WEB-INF/classes/
 
 3.测试
 注意自己的servlet配置路径在 web.xml <url-pattern>
-输入 http://127.0.0.1:8080/hello或http://127.0.0.1:8080/hello/servlet/HelloServlet
+输入 
+http://127.0.0.1:8080/hello
+或
+http://127.0.0.1:8080/hello/servlet/HelloServlet
 
 
 
